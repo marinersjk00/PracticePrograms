@@ -5,7 +5,7 @@
  */
 package university.admissions;
 
-import java.text.DecimalFormat;
+import java.text.DecimalFormat; //for formatting the GPA to two decimal places
 
 /**
  *
@@ -19,9 +19,9 @@ class idealStudent {
     int idealSATscore;
     
      idealStudent(){
-        schoolName = "UCLA";
-        idealGPA = 3.29;
-        idealSATscore = 1300;
+        schoolName = "UCLA"; //Go Bruins! Data based on 25th percentile of UCLA freshman admits in Fall 2019
+        idealGPA = 4.18; // https://admission.universityofcalifornia.edu/campuses-majors/ucla/freshman-admission-profile.html
+        idealSATscore = 1360;
         idealACTscore = 29;
     }
     
